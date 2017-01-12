@@ -1,0 +1,546 @@
+/*
+* Ã¦Ë†â€˜Ã¤Â»Â¬Ã§Å¡â?žÃ¨â?¡ÂªÃ¥Â®Å¡Ã¤Â¹â?°Ã¦Â Â·Ã¥Â¼Â?
+* @Author: iceStone
+* @Date:   2015-12-12 10:56:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-19 22:56:53
+*/
+
+/**
+ * 1. Ã¦Â Â·Ã¥Â¼ÂÃ©Æ’Â½Ã©â�?�¬Å¡Ã¨Â¿�??¡IDÃ¥Å½Â»Ã©â„¢ÂÃ¥Â®�??
+ * 2. Ã¥Â°Â½Ã¥ÂÂ¯Ã¨Æ’Â½Ã¥Â¤Å¡Ã¤Â½Â¿Ã§â€Â¨Ã§â?ºÂ´Ã¦Å½Â¥Ã¥Â­ÂÃ¤Â»Â£Ã©â‚¬â€°Ã¦â?¹Â©Ã¥â„¢Â�?
+ */
+
+/**
+ * BootstrapÃ¦â€°Â©Ã¥Â±�???
+ */
+
+.btn-itcast {
+    color: #ffffff;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-itcast:hover,
+.btn-itcast:focus,
+.btn-itcast:active,
+.btn-itcast.active,
+.open .dropdown-toggle.btn-itcast {
+    color: #ffffff;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-itcast:active,
+.btn-itcast.active,
+.open .dropdown-toggle.btn-itcast {
+    background-image: none;
+}
+
+.btn-itcast.disabled,
+.btn-itcast[disabled],
+fieldset[disabled] .btn-itcast,
+.btn-itcast.disabled:hover,
+.btn-itcast[disabled]:hover,
+fieldset[disabled] .btn-itcast:hover,
+.btn-itcast.disabled:focus,
+.btn-itcast[disabled]:focus,
+fieldset[disabled] .btn-itcast:focus,
+.btn-itcast.disabled:active,
+.btn-itcast[disabled]:active,
+fieldset[disabled] .btn-itcast:active,
+.btn-itcast.disabled.active,
+.btn-itcast[disabled].active,
+fieldset[disabled] .btn-itcast.active {
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-itcast .badge {
+    color: #E92322;
+    background-color: #ffffff;
+}
+
+.navbar-itcast {
+    background-color: #fff;
+    border-color: #f5f5f5;
+    margin-bottom: 0;
+}
+
+.navbar-itcast .navbar-brand {
+    color: #777;
+    height: 80px;
+}
+
+.navbar-itcast .navbar-brand:hover,
+.navbar-itcast .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.navbar-itcast .navbar-text {
+    color: #777;
+}
+
+.navbar-itcast .navbar-nav > li > a {
+    color: #777;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.navbar-itcast .navbar-nav > li > a:hover,
+.navbar-itcast .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 2px solid #e92322;
+}
+
+.navbar-itcast .navbar-nav > .active > a,
+.navbar-itcast .navbar-nav > .active > a:hover,
+.navbar-itcast .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: transparent;
+    border-bottom: 2px solid #E92322;
+}
+
+.navbar-itcast .navbar-nav > .disabled > a,
+.navbar-itcast .navbar-nav > .disabled > a:hover,
+.navbar-itcast .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-itcast .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.navbar-itcast .navbar-toggle:hover,
+.navbar-itcast .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+.navbar-itcast .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.navbar-itcast .navbar-collapse,
+.navbar-itcast .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.navbar-itcast .navbar-nav > .open > a,
+.navbar-itcast .navbar-nav > .open > a:hover,
+.navbar-itcast .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+.navbar-itcast .navbar-link {
+    color: #777;
+}
+
+.navbar-itcast .navbar-link:hover {
+    color: #333;
+}
+
+.navbar-itcast .btn-link {
+    color: #777;
+}
+
+.navbar-itcast .btn-link:hover,
+.navbar-itcast .btn-link:focus {
+    color: #333;
+}
+
+.navbar-itcast .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-itcast .btn-link:hover,
+.navbar-itcast .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-itcast .btn-link:focus {
+    color: #ccc;
+}
+
+/**
+ * Ã¥â€¦Â¬Ã¥�??¦Â±Ã¦Â Â·Ã¥Â¼Â?
+ */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+@font-face {
+    font-family: 'itcast';
+    src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'), url('../font/MiFie-Web-Font.svg') format('svg'), url('../font/MiFie-Web-Font.ttf') format('truetype'), url('../font/MiFie-Web-Font.woff') format('woff');
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: itcast;
+    font-style: normal;
+}
+
+.icon-mobilephone::before {
+    content: "\e908";
+    font-size: 13px;
+}
+
+.icon-telephone::before {
+    content: "\e909";
+    font-size: 15px;
+}
+
+.icon-logo::before {
+    content: "\e93e";
+}
+
+.icon-icon::before {
+    content: "\e920";
+}
+
+/**
+ * Ã¥Â¤Â´Ã©Æ’Â¨Ã¥Å�?�ÂºÃ¥Å¸Å�?
+ */
+
+#header {
+    /* height: 200px; */
+}
+
+#header > .topbar {
+    height: 40px;
+    border-bottom: 1px solid #c0c0c0;
+    line-height: 40px;
+}
+
+#header > .topbar > .container > .row > div {
+    height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+#header > .topbar > .container > .row > div + div {
+    border-left: 1px solid #c0c0c0;
+}
+
+#header a {
+    color: #888;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+#header .btn-itcast {
+    color: #fff;
+}
+
+#header .mobile-link > img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 28px;
+    z-index: 1001;
+}
+
+#header .mobile-link:hover > img {
+    display: block;
+}
+
+#header .icon-icon {
+    font-size: 50px;
+    color: #E92322;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#header .icon-logo {
+    font-size: 32px;
+    color: #333;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+/*#header > .topbar > .container > .row > div {
+  background-color: #f40;
+  height: 40px
+}
+
+#header > .topbar > .container > .row > div:nth-of-type(2n) {
+  background-color: #f00;
+}*/
+/*Í¨À¸¹ã¸æÂÖ²¥*/
+#main_ad > .carousel-inner > .item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 768px  ) {
+    /*����Ļ����С��768ʱ����ʱʹ�ô�ͼ���Ż�ִ��*/
+    #main_ad > .carousel-inner > .item {
+        height: 410px;
+    }
+}
+
+#main_ad > .carousel-inner > .item img {
+    width: 100%;
+}
+
+/*
+* 网站特色
+*/
+#tese {
+    padding: 50px 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.icon-uniE907:before {
+    content: "\e907";
+}
+
+#tese i {
+    font-size: 34px;
+}
+
+#tese > .container > .row > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+* 立即预约
+*/
+#ljyy {
+    border-bottom: 1px solid #c0c0c0;
+    padding: 20px 0;
+}
+
+#ljyy > .container > p {
+    /*line-height: 50px;*/
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#ljyy > .container > .pull-left > span,
+#ljyy > .container > .pull-left > a {
+    color: #e92322;
+}
+
+#ljyy > .container > .pull-left > a {
+    border-bottom: 1px dashed #e92322;
+}
+
+#ljyy > .container > .pull-left > a:hover {
+    text-decoration: none;
+}
+
+.icon-uniE906:before {
+    content: "\e906";
+}
+
+.icon-uniE905:before {
+    content: "\e905";
+}
+
+/*产品推荐*/
+#products {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+#products > .container > .nav-tabs {
+
+    padding-left: 20px;
+}
+
+#products > .container > .nav-tabs > li {
+
+}
+
+#products > .container > .nav-tabs > li > a {
+    color: #333;
+}
+
+#products > .container > .nav-tabs > li > a:hover {
+
+    border-color: transparent;
+
+    background-color: transparent;
+
+    color: #222;
+}
+
+#products > .container > .nav-tabs > li.active > a {
+
+    font-size: 16px;
+
+}
+
+#products > .container > .nav-tabs > li.active {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 4px solid #e92322;
+}
+
+#products > .container > .tab-content {
+    padding: 20px 0 0 0;
+}
+
+/*bootsrop 扩展*/
+.panel-rp {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.panel-rp.active {
+    background-color: #e92322;
+    color: #fff;
+}
+
+.panel-rp.active::before {
+    content: "\e915";
+    font-size: 50px;
+    font-family: itcast;
+    position: absolute;
+    top: -12px;
+    left: 15px;
+}
+
+#products > .container > .tab-content p {
+    margin-bottom: 0;
+}
+
+.panel-rp.disabled {
+    background-color: #e0e0e0;
+}
+
+.panel-rp > .panel-heading {
+    float: right;
+    /* background-color: #F5F5F4; */
+    /* border-color: #ddd; */
+    width: 120px;
+    padding: 45px 0;
+    height: 150px;
+    border-left: 1px dashed #c0c0c0;
+    text-align: center;
+    position: relative;
+
+}
+
+.panel-rp > .panel-heading::after,
+.panel-rp > .panel-heading::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    position: absolute;
+}
+
+.panel-rp > .panel-heading::before {
+    top: -8px;
+    left: -8px;
+}
+
+.panel-rp > .panel-heading::after {
+    bottom: -8px;
+    left: -8px;
+    box-shadow: 0px 2px 1px #ccc inset;
+}
+
+.panel-rp > .panel-heading > p > strong {
+    font-size: 30px;
+
+}
+
+.panel-rp > .panel-heading > .tooltips {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 26px;
+}
+
+.panel-rp > .panel-heading > .tooltips > a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 3px;
+}
+
+.panel-rp > .panel-heading > .tooltips .badge-one {
+    color: #e92322;
+    border-color: #e92322;
+}
+
+.panel-rp > .panel-heading > .tooltips .badge-two {
+    color: #399;
+    border-color: #399;
+}
+
+.panel-rp > .panel-body {
+    margin-right: 120px;
+    height: 150px;
+}
+
+.panel-rp > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+
+.panel-rp > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333;
+}
+
+/**
+ * Ã¦Âµâ€¹Ã¨Â¯�??¢Ã¦Â Â·Ã¥Â¼ÂÃ¥Å’ÂºÃ¥Å¸�??
+ */
+
+/*section {*/
+/*height: 200px;*/
+/*background-color: #fff;*/
+/*}*/
+
+/*section:nth-of-type(2n) {*/
+/*!* Ã©â‚¬�??°Ã¦â?¹Â©Ã¥Ë†Â°Ã§Â¬�??1,3,5,Ã£â‚¬�??šÃ£â‚¬â€šÃ£â‚¬â€šÃ£â‚¬â€? *!*/
+/*background-color: #f5f5f5;*/
+/*}*/
+
+/**
+ * Ã¨â€žÅ¡Ã¦Â³Â¨Ã¥Å�?�ÂºÃ¥Å¸�??
+ */
+
+#footer {
+}
